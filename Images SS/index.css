@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+:root{
+    --nav:green;
+    --gev:rgb(0, 68, 0);
+}
+
+
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+.topbar{
+    background-color: #004080;
+    /* background-color: var(--nav); */
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top:10px;
+}
+.contactbar{
+    padding-right: 100px;
+}
+.topbar a{
+    color:rgb(207, 207, 207);
+    text-decoration: none;
+}
+.social-icon{
+    float:right;
+    padding-left: 100px;
+}
+.social-icon :hover{
+    color: white ;
+}
+
+.social{
+    padding-left: 10px;
+}
+
+.navbar{
+    background-color: white(255, 255, 255);
+    height: 50px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+.navbarmenu ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+} 
+.navbarmenu ul li{
+    text-decoration: none;
+    padding: 15px;
+}
+.navbarmenu ul li :hover{
+    color: #0080ff;
+    background-color: aliceblue;
+}
+
+.navbarmenu ul li a{
+    text-decoration: none;
+    color: #004080;
+}
+.img32{
+    height: 32px;
+    width: 32px;
+}
+h1{
+    margin: auto;
+    color: #004080;
+}
+.page-title{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 100px;
+}
+.BA{
+    background-color: #004080;
+    border-radius: 20px;
+    width: 125px;
+    color: white;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+.homepage{
+    padding-top: 50px;
+    background-image: url('images/ZGlogo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-attachment: fixed;
+}
+
+.welcome{
+    padding: 80px;
+    font-size: xx-large;
+    /* font-family: ; */
+    display: block;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.whychoose{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.whychoose1{
+    height: 20px;
+}
